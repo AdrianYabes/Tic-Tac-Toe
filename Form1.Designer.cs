@@ -43,92 +43,110 @@ namespace Tic_Tac_Toe
             // 
             // Uno
             // 
+            this.Uno.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Uno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Uno.BackgroundImage")));
             this.Uno.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Uno.Location = new System.Drawing.Point(13, 12);
             this.Uno.Name = "Uno";
             this.Uno.Size = new System.Drawing.Size(107, 98);
             this.Uno.TabIndex = 0;
-            this.Uno.UseVisualStyleBackColor = true;
+            this.Uno.UseVisualStyleBackColor = false;
             this.Uno.Click += new System.EventHandler(this.button1_Click);
             // 
             // Dos
             // 
+            this.Dos.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Dos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Dos.BackgroundImage")));
             this.Dos.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dos.Location = new System.Drawing.Point(126, 12);
             this.Dos.Name = "Dos";
             this.Dos.Size = new System.Drawing.Size(107, 98);
             this.Dos.TabIndex = 1;
-            this.Dos.UseVisualStyleBackColor = true;
+            this.Dos.UseVisualStyleBackColor = false;
             this.Dos.Click += new System.EventHandler(this.button2_Click);
             // 
             // Tres
             // 
+            this.Tres.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Tres.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Tres.BackgroundImage")));
             this.Tres.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tres.Location = new System.Drawing.Point(239, 12);
             this.Tres.Name = "Tres";
             this.Tres.Size = new System.Drawing.Size(107, 98);
             this.Tres.TabIndex = 2;
-            this.Tres.UseVisualStyleBackColor = true;
+            this.Tres.UseVisualStyleBackColor = false;
             this.Tres.Click += new System.EventHandler(this.button3_Click);
             // 
             // Quatro
             // 
+            this.Quatro.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Quatro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Quatro.BackgroundImage")));
             this.Quatro.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quatro.Location = new System.Drawing.Point(13, 116);
             this.Quatro.Name = "Quatro";
             this.Quatro.Size = new System.Drawing.Size(107, 98);
             this.Quatro.TabIndex = 3;
-            this.Quatro.UseVisualStyleBackColor = true;
+            this.Quatro.UseVisualStyleBackColor = false;
             this.Quatro.Click += new System.EventHandler(this.button4_Click);
             // 
             // Cinco
             // 
+            this.Cinco.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Cinco.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Cinco.BackgroundImage")));
             this.Cinco.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cinco.Location = new System.Drawing.Point(126, 116);
             this.Cinco.Name = "Cinco";
             this.Cinco.Size = new System.Drawing.Size(107, 98);
             this.Cinco.TabIndex = 4;
-            this.Cinco.UseVisualStyleBackColor = true;
+            this.Cinco.UseVisualStyleBackColor = false;
             this.Cinco.Click += new System.EventHandler(this.button5_Click);
             // 
             // Seis
             // 
+            this.Seis.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Seis.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Seis.BackgroundImage")));
             this.Seis.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Seis.Location = new System.Drawing.Point(239, 116);
             this.Seis.Name = "Seis";
             this.Seis.Size = new System.Drawing.Size(107, 98);
             this.Seis.TabIndex = 5;
-            this.Seis.UseVisualStyleBackColor = true;
+            this.Seis.UseVisualStyleBackColor = false;
             this.Seis.Click += new System.EventHandler(this.button6_Click);
             // 
             // Siete
             // 
+            this.Siete.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Siete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Siete.BackgroundImage")));
             this.Siete.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Siete.Location = new System.Drawing.Point(13, 220);
             this.Siete.Name = "Siete";
             this.Siete.Size = new System.Drawing.Size(107, 98);
             this.Siete.TabIndex = 6;
-            this.Siete.UseVisualStyleBackColor = true;
+            this.Siete.UseVisualStyleBackColor = false;
             this.Siete.Click += new System.EventHandler(this.button7_Click);
             // 
             // Ocho
             // 
+            this.Ocho.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Ocho.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ocho.BackgroundImage")));
             this.Ocho.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ocho.Location = new System.Drawing.Point(126, 220);
             this.Ocho.Name = "Ocho";
             this.Ocho.Size = new System.Drawing.Size(107, 98);
             this.Ocho.TabIndex = 7;
-            this.Ocho.UseVisualStyleBackColor = true;
+            this.Ocho.UseVisualStyleBackColor = false;
             this.Ocho.Click += new System.EventHandler(this.button8_Click);
             // 
             // Nueve
             // 
+            this.Nueve.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.Nueve.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Nueve.BackgroundImage")));
             this.Nueve.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nueve.Location = new System.Drawing.Point(239, 220);
             this.Nueve.Name = "Nueve";
             this.Nueve.Size = new System.Drawing.Size(107, 98);
             this.Nueve.TabIndex = 8;
-            this.Nueve.UseVisualStyleBackColor = true;
+            this.Nueve.UseVisualStyleBackColor = false;
             this.Nueve.Click += new System.EventHandler(this.button9_Click);
             // 
             // Form1
@@ -136,7 +154,7 @@ namespace Tic_Tac_Toe
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(359, 329);
+            this.ClientSize = new System.Drawing.Size(359, 330);
             this.Controls.Add(this.Nueve);
             this.Controls.Add(this.Ocho);
             this.Controls.Add(this.Siete);
@@ -148,10 +166,12 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.Uno);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TicTacToe";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
 
         }
