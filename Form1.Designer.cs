@@ -29,6 +29,7 @@ namespace Tic_Tac_Toe
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Uno = new System.Windows.Forms.Button();
             this.Dos = new System.Windows.Forms.Button();
             this.Tres = new System.Windows.Forms.Button();
@@ -42,7 +43,8 @@ namespace Tic_Tac_Toe
             // 
             // Uno
             // 
-            this.Uno.Location = new System.Drawing.Point(20, 29);
+            this.Uno.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Uno.Location = new System.Drawing.Point(13, 12);
             this.Uno.Name = "Uno";
             this.Uno.Size = new System.Drawing.Size(107, 98);
             this.Uno.TabIndex = 0;
@@ -51,7 +53,8 @@ namespace Tic_Tac_Toe
             // 
             // Dos
             // 
-            this.Dos.Location = new System.Drawing.Point(133, 29);
+            this.Dos.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dos.Location = new System.Drawing.Point(126, 12);
             this.Dos.Name = "Dos";
             this.Dos.Size = new System.Drawing.Size(107, 98);
             this.Dos.TabIndex = 1;
@@ -60,7 +63,8 @@ namespace Tic_Tac_Toe
             // 
             // Tres
             // 
-            this.Tres.Location = new System.Drawing.Point(246, 29);
+            this.Tres.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tres.Location = new System.Drawing.Point(239, 12);
             this.Tres.Name = "Tres";
             this.Tres.Size = new System.Drawing.Size(107, 98);
             this.Tres.TabIndex = 2;
@@ -69,7 +73,8 @@ namespace Tic_Tac_Toe
             // 
             // Quatro
             // 
-            this.Quatro.Location = new System.Drawing.Point(20, 133);
+            this.Quatro.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Quatro.Location = new System.Drawing.Point(13, 116);
             this.Quatro.Name = "Quatro";
             this.Quatro.Size = new System.Drawing.Size(107, 98);
             this.Quatro.TabIndex = 3;
@@ -78,7 +83,8 @@ namespace Tic_Tac_Toe
             // 
             // Cinco
             // 
-            this.Cinco.Location = new System.Drawing.Point(133, 133);
+            this.Cinco.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cinco.Location = new System.Drawing.Point(126, 116);
             this.Cinco.Name = "Cinco";
             this.Cinco.Size = new System.Drawing.Size(107, 98);
             this.Cinco.TabIndex = 4;
@@ -87,7 +93,8 @@ namespace Tic_Tac_Toe
             // 
             // Seis
             // 
-            this.Seis.Location = new System.Drawing.Point(246, 133);
+            this.Seis.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Seis.Location = new System.Drawing.Point(239, 116);
             this.Seis.Name = "Seis";
             this.Seis.Size = new System.Drawing.Size(107, 98);
             this.Seis.TabIndex = 5;
@@ -96,7 +103,8 @@ namespace Tic_Tac_Toe
             // 
             // Siete
             // 
-            this.Siete.Location = new System.Drawing.Point(20, 237);
+            this.Siete.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Siete.Location = new System.Drawing.Point(13, 220);
             this.Siete.Name = "Siete";
             this.Siete.Size = new System.Drawing.Size(107, 98);
             this.Siete.TabIndex = 6;
@@ -105,7 +113,8 @@ namespace Tic_Tac_Toe
             // 
             // Ocho
             // 
-            this.Ocho.Location = new System.Drawing.Point(133, 237);
+            this.Ocho.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ocho.Location = new System.Drawing.Point(126, 220);
             this.Ocho.Name = "Ocho";
             this.Ocho.Size = new System.Drawing.Size(107, 98);
             this.Ocho.TabIndex = 7;
@@ -114,7 +123,8 @@ namespace Tic_Tac_Toe
             // 
             // Nueve
             // 
-            this.Nueve.Location = new System.Drawing.Point(246, 237);
+            this.Nueve.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nueve.Location = new System.Drawing.Point(239, 220);
             this.Nueve.Name = "Nueve";
             this.Nueve.Size = new System.Drawing.Size(107, 98);
             this.Nueve.TabIndex = 8;
@@ -125,7 +135,8 @@ namespace Tic_Tac_Toe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 360);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(359, 329);
             this.Controls.Add(this.Nueve);
             this.Controls.Add(this.Ocho);
             this.Controls.Add(this.Siete);
@@ -135,8 +146,12 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.Tres);
             this.Controls.Add(this.Dos);
             this.Controls.Add(this.Uno);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TicTacToe";
             this.ResumeLayout(false);
 
         }
