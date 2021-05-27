@@ -37,11 +37,11 @@ namespace Tic_Tac_Toe
         {
             if (TicTacColor.Equals("O")) 
             {
-                return System.Drawing.Color.Khaki;
+                return System.Drawing.Color.DeepSkyBlue;
             }
             else
             {
-                return System.Drawing.Color.MediumAquamarine;
+                return System.Drawing.Color.Red;
             }
         }
         public void TheWinner()
