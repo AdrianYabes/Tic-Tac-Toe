@@ -160,7 +160,6 @@ namespace Tic_Tac_Toe
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.Form1_Load_1);
