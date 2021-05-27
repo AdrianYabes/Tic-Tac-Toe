@@ -43,8 +43,7 @@ namespace Tic_Tac_Toe
             // 
             // Uno
             // 
-            this.Uno.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Uno.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Uno.BackgroundImage")));
+            this.Uno.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Uno.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Uno.Location = new System.Drawing.Point(13, 12);
             this.Uno.Name = "Uno";
@@ -55,8 +54,7 @@ namespace Tic_Tac_Toe
             // 
             // Dos
             // 
-            this.Dos.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Dos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Dos.BackgroundImage")));
+            this.Dos.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Dos.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dos.Location = new System.Drawing.Point(126, 12);
             this.Dos.Name = "Dos";
@@ -67,8 +65,7 @@ namespace Tic_Tac_Toe
             // 
             // Tres
             // 
-            this.Tres.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Tres.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Tres.BackgroundImage")));
+            this.Tres.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Tres.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tres.Location = new System.Drawing.Point(239, 12);
             this.Tres.Name = "Tres";
@@ -79,8 +76,7 @@ namespace Tic_Tac_Toe
             // 
             // Quatro
             // 
-            this.Quatro.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Quatro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Quatro.BackgroundImage")));
+            this.Quatro.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Quatro.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quatro.Location = new System.Drawing.Point(13, 116);
             this.Quatro.Name = "Quatro";
@@ -91,8 +87,7 @@ namespace Tic_Tac_Toe
             // 
             // Cinco
             // 
-            this.Cinco.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Cinco.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Cinco.BackgroundImage")));
+            this.Cinco.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Cinco.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cinco.Location = new System.Drawing.Point(126, 116);
             this.Cinco.Name = "Cinco";
@@ -103,8 +98,7 @@ namespace Tic_Tac_Toe
             // 
             // Seis
             // 
-            this.Seis.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Seis.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Seis.BackgroundImage")));
+            this.Seis.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Seis.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Seis.Location = new System.Drawing.Point(239, 116);
             this.Seis.Name = "Seis";
@@ -115,8 +109,7 @@ namespace Tic_Tac_Toe
             // 
             // Siete
             // 
-            this.Siete.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Siete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Siete.BackgroundImage")));
+            this.Siete.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Siete.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Siete.Location = new System.Drawing.Point(13, 220);
             this.Siete.Name = "Siete";
@@ -127,8 +120,7 @@ namespace Tic_Tac_Toe
             // 
             // Ocho
             // 
-            this.Ocho.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Ocho.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ocho.BackgroundImage")));
+            this.Ocho.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Ocho.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ocho.Location = new System.Drawing.Point(126, 220);
             this.Ocho.Name = "Ocho";
@@ -139,8 +131,7 @@ namespace Tic_Tac_Toe
             // 
             // Nueve
             // 
-            this.Nueve.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.Nueve.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Nueve.BackgroundImage")));
+            this.Nueve.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Nueve.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nueve.Location = new System.Drawing.Point(239, 220);
             this.Nueve.Name = "Nueve";
@@ -165,6 +156,7 @@ namespace Tic_Tac_Toe
             this.Controls.Add(this.Dos);
             this.Controls.Add(this.Uno);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
