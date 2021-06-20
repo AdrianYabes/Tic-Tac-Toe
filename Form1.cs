@@ -32,7 +32,17 @@ namespace Tic_Tac_Toe
                 return "X";
             }
         }
-
+        public System.Drawing.Color BoxColor(string TicTacColor)
+        {
+            if (TicTacColor.Equals("O"))
+            {
+                return System.Drawing.Color.DeepSkyBlue;
+            }
+            else
+            {
+                return System.Drawing.Color.Red;
+            }
+        }
         public void TheWinner()
         {
             for (int i = 0; i < 8; i++)
@@ -122,6 +132,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[0] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[0]);
+            Uno.BackColor = Color_Button;
             Uno.Text = Board_Game[0];
             TheWinner();
         }
@@ -130,6 +142,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[1] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[1]);
+            Dos.BackColor = Color_Button;
             Dos.Text = Board_Game[1];
             TheWinner();
 
@@ -139,6 +153,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[2] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[2]);
+            Tres.BackColor = Color_Button;
             Tres.Text = Board_Game[2];
             TheWinner();
 
@@ -147,6 +163,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[3] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[3]);
+            Quatro.BackColor = Color_Button;
             Quatro.Text = Board_Game[3];
             TheWinner();
 
@@ -156,6 +174,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[4] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[4]);
+            Cinco.BackColor = Color_Button;
             Cinco.Text = Board_Game[4];
             TheWinner();
 
@@ -165,6 +185,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[5] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[5]);
+            Seis.BackColor = Color_Button;
             Seis.Text = Board_Game[5];
             TheWinner();
 
@@ -174,6 +196,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[6] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[6]);
+            Siete.BackColor = Color_Button;
             Siete.Text = Board_Game[6];
             TheWinner();
 
@@ -183,6 +207,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[7] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[7]);
+            Ocho.BackColor = Color_Button;
             Ocho.Text = Board_Game[7];
             TheWinner();
 
@@ -192,6 +218,8 @@ namespace Tic_Tac_Toe
         {
             Current_Turn++;
             Board_Game[8] = Return_Symbol(Current_Turn);
+            Color Color_Button = BoxColor(Board_Game[8]);
+            Nueve.BackColor = Color_Button;
             Nueve.Text = Board_Game[8];
             TheWinner();
 
