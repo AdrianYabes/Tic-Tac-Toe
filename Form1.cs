@@ -105,6 +105,15 @@ namespace Tic_Tac_Toe
             Siete.Text = "";
             Ocho.Text = "";
             Nueve.Text = "";
+            Uno.BackColor = System.Drawing.Color.White;
+            Dos.BackColor = System.Drawing.Color.White;
+            Tres.BackColor = System.Drawing.Color.White;
+            Quatro.BackColor = System.Drawing.Color.White;
+            Cinco.BackColor = System.Drawing.Color.White;
+            Seis.BackColor = System.Drawing.Color.White;
+            Siete.BackColor = System.Drawing.Color.White;
+            Ocho.BackColor = System.Drawing.Color.White;
+            Nueve.BackColor = System.Drawing.Color.White;
             Board_Game = new string[9];
             Current_Turn = 0;
         }
@@ -121,11 +130,6 @@ namespace Tic_Tac_Toe
                     MessageBox.Show("Aww! That is a Draw.", "Nah...", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
