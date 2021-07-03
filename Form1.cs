@@ -16,11 +16,8 @@ namespace Tic_Tac_Toe
         {
             InitializeComponent();
         }
-
-
         String[] Board_Game = new string[9];
         int Current_Turn = 0;
-
         public string Return_Symbol(int turn)
         {
             if (turn % 2 == 0)
@@ -48,7 +45,6 @@ namespace Tic_Tac_Toe
             for (int i = 0; i < 8; i++)
             {
                 String Winning_Pattern = "";
-
                 switch (i)
                 {
                     case 0:
@@ -75,9 +71,7 @@ namespace Tic_Tac_Toe
                     case 7:
                         Winning_Pattern = Board_Game[2] + Board_Game[4] + Board_Game[6];
                         break;
-
                 }
-
                 if (Winning_Pattern.Equals("OOO"))
                 {
                     reset();
@@ -87,13 +81,10 @@ namespace Tic_Tac_Toe
                 {
                     reset();
                     MessageBox.Show("X Won The Game! Yahoooo!", "Congratulations! ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
                 }
                 Draw_Players();
-
             }
         }
-
         public void reset()
         {
             Uno.Text = "";
@@ -131,7 +122,6 @@ namespace Tic_Tac_Toe
                 }
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -139,9 +129,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[0]);
             Uno.BackColor = Color_Button;
             Uno.Text = Board_Game[0];
+            Uno.Enabled = false;
             TheWinner();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -149,10 +139,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[1]);
             Dos.BackColor = Color_Button;
             Dos.Text = Board_Game[1];
+            Dos.Enabled = false;
             TheWinner();
-
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -160,8 +149,8 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[2]);
             Tres.BackColor = Color_Button;
             Tres.Text = Board_Game[2];
+            Tres.Enabled = false;
             TheWinner();
-
         }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -170,10 +159,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[3]);
             Quatro.BackColor = Color_Button;
             Quatro.Text = Board_Game[3];
+            Quatro.Enabled = false;
             TheWinner();
-
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -181,10 +169,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[4]);
             Cinco.BackColor = Color_Button;
             Cinco.Text = Board_Game[4];
+            Cinco.Enabled = false;
             TheWinner();
-
         }
-
         private void button6_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -192,10 +179,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[5]);
             Seis.BackColor = Color_Button;
             Seis.Text = Board_Game[5];
+            Seis.Enabled = false;
             TheWinner();
-
         }
-
         private void button7_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -203,10 +189,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[6]);
             Siete.BackColor = Color_Button;
             Siete.Text = Board_Game[6];
+            Siete.Enabled = false;
             TheWinner();
-
         }
-
         private void button8_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -214,10 +199,9 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[7]);
             Ocho.BackColor = Color_Button;
             Ocho.Text = Board_Game[7];
+            Ocho.Enabled = false;
             TheWinner();
-
         }
-
         private void button9_Click(object sender, EventArgs e)
         {
             Current_Turn++;
@@ -225,13 +209,8 @@ namespace Tic_Tac_Toe
             Color Color_Button = BoxColor(Board_Game[8]);
             Nueve.BackColor = Color_Button;
             Nueve.Text = Board_Game[8];
+            Nueve.Enabled = false;
             TheWinner();
-
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
