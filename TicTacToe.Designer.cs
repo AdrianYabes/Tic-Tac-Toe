@@ -1,7 +1,7 @@
 ﻿
 namespace Tic_Tac_Toe
 {
-    partial class Form1
+    partial class TicTacToe
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Tic_Tac_Toe
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TicTacToe));
             this.Uno = new System.Windows.Forms.Button();
             this.Dos = new System.Windows.Forms.Button();
             this.Tres = new System.Windows.Forms.Button();
