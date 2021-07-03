@@ -108,7 +108,6 @@ namespace Tic_Tac_Toe
             Board_Game = new string[9];
             Current_Turn = 0;
         }
-
         public void Draw_Players()
         {
             int counter = 0;
